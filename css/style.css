@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.topo {
+
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    height: 80px;
+    background-color: #ffffff;
+    gap:1300px;
+    align-items: center;
+
+}
+
+img{
+
+    width: 167px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+
+color: #626262;
+text-decoration: none;
+display: flex;
+
+
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Home { 
+    
+    color: #E51B3E;
+
+
+
+
+}
+.cine {
+    color:#E51B3E;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 300px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    margin-right: 470px;
+
+}
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 765px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+
+
+}
+
+.Inicio {
+
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+background-image: url('../img/DHFlix.png');
+height: 1023px;
+}
+
+
+.itens{
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 90px;
+}
+
+.itens1{
+
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 300px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    margin-left: 125px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    margin-top: 30px;
+    margin-left: 20%;
+    gap: 120px;
+}
+
+.card1 {
+    width: 300px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(177, 172, 172);;
+ 
+    
+}
+
+.card2 {
+    width: 300px;
+    height: 630px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(177, 172, 172);;  
+}
+
+.card3 {
+    width: 300px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    font-size: 14px;
+    box-shadow: 5px 5px 5px rgb(177, 172, 172);
+}
+
+.card4 {
+    width: 300px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(177, 172, 172);;
+}
+
+.card5 {
+    width: 300px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(177, 172, 172);;
+}
+
+.card6 {
+
+    width: 300px;
+    height: 630px;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(177, 172, 172);;
+}
+
+.image {
+    width: 300px;
+    height: 250px;
+
+}
+
+.infor {
+
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 30px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+}
+
+section.github {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    align-items: center;
+    color: #FFFFFFBF;
+    font-size: 1.2rem;
+}
+
+.github h5 {
+    font-size: 1.5rem;
+    color: #FFFFFFBF;
+}
+
+div.text-footer {
+    text-align: center;
+    margin: 2%;
+    color:#FFFFFFBF;
+}
+
+.cardAluno1 {
+    text-align: left;
+    color: #FFFFFFBF;
+    
+
+}
+
+.git{
+    height: 35px;
+    width: 35px;
+    margin-left: 180px;
+    margin-top: 10px;
+    
+}
+
+.scream1 {
+
+    background-color: #33BB69;
+    border-radius: 12px;
+    width: 230px;
+    height: 60px;
+    border: #33BB69;
+    font-size: 18px;
+    color: #F4F4F4;
+    margin-top: 30px;
+    margin-left: 37px;
+    
+}
+.scream2 {
+
+    background-color: #33BB69;
+    border-radius: 12px;
+    width: 230px;
+    height: 60px;
+    border: #33BB69;
+    font-size: 18px;
+    color: #F4F4F4;
+    margin-top: 50px;
+    margin-left: 37px;
+}
+.scream3 {
+
+    background-color: #33BB69;
+    border-radius: 12px;
+    width: 230px;
+    height: 60px;
+    border: #33BB69;
+    font-size: 18px;
+    color: #F4F4F4;
+    margin-top: 13px;
+    margin-left: 37px;
+}
+.scream4 {
+
+    background-color: #33BB69;
+    border-radius: 12px;
+    width: 230px;
+    height: 60px;
+    border: #33BB69;
+    font-size: 18px;
+    color: #F4F4F4;
+    margin-top: 70px;
+    margin-left: 37px;
+}
+.scream5 {
+
+    background-color: #33BB69;
+    border-radius: 12px;
+    width: 230px;
+    height: 60px;
+    border: #33BB69;
+    font-size: 18px;
+    color: #F4F4F4;
+    margin-top: 70px;
+    margin-left: 37px;
+}
+.scream6 {
+
+    background-color: #33BB69;
+    border-radius: 12px;
+    width: 230px;
+    height: 60px;
+    border: #33BB69;
+    font-size: 18px;
+    color: #F4F4F4;
+    margin-top: 30px;
+    margin-left: 37px;
+}
+
+.explorar {
+    background-color:  #33BB690D;
+    width: 322px;
+    height: 71px;
+    border: 1px solid #33BB69;
+box-sizing: border-box;
+border-radius: 12px;
+
+
+}
+
+.exp {
+    color: #F4F4F4;
+    text-decoration: none;
+    width: 98px;
+    height: 28px;
+    font-size: 24px;
+}
+
+.joker {
+    text-decoration: none;
+    color: #F4F4F4;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 10px;
+    transition: 0.6s;
+    color: #171717;}
+
+nav ul li a:hover {
+    background-color: rgb(204, 102, 102);}
+
+@media (max-width: 500px) {
+
+    section.github {
+        flex-direction: column;
+    }
+  
+    .cardAluno1 {
+      margin: 10px;
+    }
+  
+    section.banner {
+      font-size: 1.2rem;
+    }
+  
+    header {
+      flex-direction: column;
+    }
+  }
+  
+
+
